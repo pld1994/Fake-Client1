@@ -1,0 +1,266 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #03396c;
+}
+
+.top-page {
+    margin-top: -4em;
+}
+
+.client-name {
+    font-family: 'Russo One', sans-serif;
+    font-size: 4em;
+    color: #b3cde0;
+    text-align: center;
+    margin-bottom: -0.5em;
+    letter-spacing: 2px;
+}
+
+.sub-title {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: #b3cde0;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+}
+
+.nav-bar {
+    text-align: center;
+    padding: 0;
+    padding-top: 1em;
+    font-size: 1em;
+}
+
+.nav-link {
+    padding: 1.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    background-color: #011f4b;
+    margin: -3px;
+    border-radius: 2px;
+    
+}
+
+#bowling {
+    font-size: 1em;
+}
+
+.buttons {
+    padding: 1em;
+}
+
+.btn {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: #011f4b;
+    border: none;
+    border-radius: 2px;
+    padding: 1em;
+}
+
+#container1 {
+   position: relative;
+   display: grid;
+   grid-template-columns: repeat(2, 2fr);
+   grid-gap: 1em;
+   padding-bottom: 2em;
+   padding-top: 2.5em;
+}
+
+#main-plug {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    letter-spacing: 2px;
+}
+
+.small-text {
+    font-size: 0.4em;
+}
+
+#ball, .items {
+   border-radius: 10px;
+   border-top: 5px solid #9900FF;
+   border-bottom: 5px solid #9900FF;
+}
+
+#about {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 3em;
+    padding-left: 1em;
+}
+
+#about-us {
+    text-align: center;
+}
+
+#strike {
+    border-radius: 50%;
+}
+
+.about-text {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#follow-icon {
+    color: white;
+    font-size: 1.5em;
+    padding-bottom: 1em;
+}
+
+footer {
+    background-color: #011f4b;
+    padding: 1em;
+}
+
+#footer-container{
+   display: grid;
+   grid-template-columns: repeat(2, 2fr);
+   grid-gap: 1em;
+   padding-bottom: 0;
+   padding-top: 0;
+   text-align: center;
+}
+
+.footer-text {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+#email {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+}
+
+#blog1 {
+    padding: 2em;
+}
+
+#man {
+    border-radius: 50%;
+}
+
+#head-container {
+    text-align: center;
+}
+
+.blog-title {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 2em;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+#blog-ball {
+    border-radius: 50%;
+}
+
+#ball-shop, #bag-shop {
+    padding: 3em;
+    
+}
+
+
+#shopping {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 2em;
+    padding-bottom: 0;
+    padding-top: 2em;
+    text-align: center;
+}
+
+@media screen and (max-device-width: 480px)
+and (orientation: portrait) {
+    .client-name {
+       font-size: 2em;
+       padding-top: 1em;
+        }
+
+    .btn {
+        font-size: 0.5em;
+    }
+
+    .sub-title {
+        font-size: 1em;
+    }
+
+    .nav-link {
+        font-size: 0.5em;
+    }
+
+    #main-plug {
+        font-size: 1.5em;
+    }
+
+    .small-text {
+        font-size: 1em;
+    }
+
+    #ball {
+        height: 200px;
+        width: 100%
+        
+    }
+
+    #container1 {
+        display: grid;
+        grid-template-columns: repeat(1, 2fr);
+        grid-gap: 1em;
+        padding-bottom: 2em;
+        padding-top: 2.5em;
+
+    }
+
+    #blog-ball {
+        height: 80px;
+        width: 80px;
+    }
+
+    .blog-title {
+        font-size: 1.3em;
+    }
+
+    .blogs {
+        font-size: 0.7em;
+    }
+
+    .footer-text {
+        font-size: 0.7em;
+    }
+
+    #shopping {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 0;
+        padding-bottom: 2em;
+        padding-top: 2em;
+        text-align: center;
+        margin-left: -2em;
+}
+
+}
